@@ -41,6 +41,7 @@
 #include <stan/math/rev/fun/cov_matrix_constrain.hpp>
 #include <stan/math/rev/fun/cov_exp_quad.hpp>
 #include <stan/math/rev/fun/cov_matrix_constrain_lkj.hpp>
+#include <stan/math/rev/fun/csr_matrix_times_vector.hpp>
 #include <stan/math/rev/fun/determinant.hpp>
 #include <stan/math/rev/fun/diag_pre_multiply.hpp>
 #include <stan/math/rev/fun/diag_post_multiply.hpp>
@@ -169,6 +170,7 @@
 #include <stan/math/rev/fun/to_var.hpp>
 #include <stan/math/rev/fun/to_arena.hpp>
 #include <stan/math/rev/fun/to_var_value.hpp>
+#include <stan/math/rev/fun/to_vector.hpp>
 #include <stan/math/rev/fun/trace.hpp>
 #include <stan/math/rev/fun/trace_gen_inv_quad_form_ldlt.hpp>
 #include <stan/math/rev/fun/trace_gen_quad_form.hpp>
